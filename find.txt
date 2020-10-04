@@ -1,7 +1,12 @@
 find memo
+<<<<<<< HEAD
 
 @charset "utf-8";
 
 <img src="" alt="">
 
 !important
+=======
+<meta name="robots" content="noindex, nofollow">
+@charset "utf-8";
+>>>>>>> find.txt作成前
