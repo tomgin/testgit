@@ -1,1 +1,3 @@
 find memo
+
+@charset "utf-8";
