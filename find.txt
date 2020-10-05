@@ -6,3 +6,4 @@ find memo
 
 aso
 天気の子
+どうしよう
