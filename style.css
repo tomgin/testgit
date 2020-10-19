@@ -37,6 +37,7 @@ img.flogo {
 .fnav{
 	display: flex;
 	margin-left: auto;
+	order: -1;
 }
 .fnav li a{
 	margin-right: 20px;
