@@ -37,8 +37,14 @@ img.flogo {
 }
 .fnav{
 	display: flex;
-	margin-left: auto;
+	/* margin-left: auto; */
 	/* order: -1; */
+	flex-basis: 100%;
+	flex:1 0 100%;
+	order:2;
+	margin: 1rem -1rem -1rem -1rem;
+	padding: 1rem;
+	justify-content: center;
 }
 .fnav li a{
 	margin-right: 20px;
