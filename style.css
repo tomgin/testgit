@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .futura{
-	font-family: futura-pt, sans-serif;
+	font-family: 'Roboto', sans-serif;
+	/* font-family: futura-pt, sans-serif; */
 	font-weight: 400;
 	font-style: normal;
 }
@@ -23,6 +24,7 @@
 }
 img.flogo {
 	width: 160px;
+	/* text-align: center; */
 }
 
  input.search{
@@ -36,12 +38,12 @@ img.flogo {
 }
 .fnav{
 	display: flex;
-	margin-left: auto;
+	/* margin-left: auto; */
 	order: -1;
 }
 .fnav li a{
 	margin-right: 20px;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 .fnav li a:hover{
 	text-decoration: underline;
@@ -51,4 +53,13 @@ img.flogo {
 	display: inline-block;
 	padding: 2px 15px;
 	border-radius: 5px;
+}
+
+img.flogo,
+.fnav,
+.btn_wrap{
+	flex:1;
+}
+.btn_wrap{
+	text-align: end;
 }
