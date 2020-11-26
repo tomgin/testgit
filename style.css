@@ -121,4 +121,42 @@ input, button{
 	border: 1px solid #42C3AF;
 }
 
+/*------------------------------
+      minmax
+--------------------------------*/
+.container3 {
+	margin: 0 auto;
+	max-width: 800px;
+	margin-top: 50px;
+}
+.o-grid {
+  display: grid;
+  grid-template-columns: minmax(200px, 500px) 1fr 1fr;
+  grid-gap: 1rem;
+}
+.og_area{
+	height: 100px;
+	border-radius: 5px;
+}
+.og1{
+	background-color: #C8BFF7;
+}
+.og2{
+	background-color: #F3E4C2;
+}
+.og3{
+	background-color: #F3BFD3;
+}
+
+@media (max-width: 767px){
+	.o-grid{
+		/*display: block;*/
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
+	.og_area{
+		/*width: 100%;*/
+	}
+}
+
+
 
