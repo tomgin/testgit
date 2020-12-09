@@ -158,5 +158,22 @@ input, button{
 	}
 }
 
+/*------------------------------
+      whwrap
+--------------------------------*/
+.whwrap{
+	margin: 0 auto;
+	margin-top: 100px;
+	max-width: 500px;
+	background-color: #eae8e8;
+	padding: 30px;
+}
+.whwrap p{
+	/*width: max-content;*/
+	width: min-content;
+	/*width: fit-content;*/
+}
+
+
 
 
